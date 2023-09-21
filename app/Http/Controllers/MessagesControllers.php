@@ -50,7 +50,7 @@ class MessagesControllers extends Controller
         ]);
 
         // Next, we find the user with ID 1. This code assumes there's a user with ID 1.
-        $user = User::find(1);
+        $user = User::find(11);
 
         // We get the conversation_id and user_id from the request.
         $conversation_id = $request->input('conversation_id');
